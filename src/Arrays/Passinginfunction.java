@@ -1,0 +1,1 @@
+package Arrays;import java.util.*;public class Passinginfunction {    public static void main(String[] args) {        int[] nums ={3,5,6,8};        System.out.println(Arrays.toString(nums));        change(nums);        System.out.println(Arrays.toString(nums));//it can change the array aswell    }    static void change(int[] arr){        arr[0] =98;    }}
